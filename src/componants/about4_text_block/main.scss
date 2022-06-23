@@ -1,0 +1,34 @@
+.title_block_about4 {
+    width: 100%;
+}
+
+.title_block_about4_title {
+    font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 150%;
+color: #DE3907;
+}
+
+.title_block_about4_description {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #2A2951;
+}
+
+
+@media only screen and (max-width: 450px) {
+
+
+    .title_block_about4_title {
+        font-size: 15px;
+line-height: 150%;
+    }
+
+    .title_block_about4_description {
+        font-size: 13px;
+line-height: 150%;
+    }
+}

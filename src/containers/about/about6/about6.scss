@@ -1,0 +1,23 @@
+.about_section2_block {
+    width: 100%;
+    background: #EEF4F5;
+border-radius: 8px;
+padding: 70px 0;
+box-sizing: border-box;
+margin-top: 100px;
+}
+.about_section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_section2_left {
+    width: 45%;
+}
+.about_section2_right {
+    width: 45%;
+}
+.about_section2_description {
+    margin-bottom: 20px;
+}
