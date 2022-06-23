@@ -1,0 +1,43 @@
+.Contpart{
+    max-width: 1580px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    background-image: url('../../assets/images/Ellipse\ 179.png');
+    background-repeat: no-repeat;
+    background-position:  83%;
+    background-size: auto;
+    height: 638px;
+
+    .text_part{
+        width: 40%;
+        .text_part_title{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 173.5%;
+            color: #FE7244;
+            margin-bottom: 30px;
+        }
+        .text_part_text{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 173.5%;
+            color: #2A2951;
+        }
+    }
+    .image_part{
+        width: 40%;
+
+    }
+
+}

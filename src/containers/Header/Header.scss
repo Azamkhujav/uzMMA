@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    max-width: 1580px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    .header_menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        width: 30%;
+        li{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #2A2951;
+        }
+    }
+    .header_icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20%;
+    }
+    .header_languae{
+        .header_lang_main{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #2A2951;
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+
+        }
+    }
+}
