@@ -1,0 +1,35 @@
+.about_section4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #DDEBED;
+    border-bottom: 1px solid #DDEBED;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.about_section4_inner {
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+
+
+    .about_section4 {
+        flex-direction: column;
+        padding: 20px 0;
+        margin-top: 51px;
+    }
+
+    .about_section4_inner {
+        width: 100%;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+}
