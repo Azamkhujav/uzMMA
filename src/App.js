@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<PageFour />} />
+          <Route path="/" element={<Home />} />
         </Routes>
      </BrowserRouter>
     </div>

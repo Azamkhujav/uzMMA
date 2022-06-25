@@ -1,7 +1,7 @@
 import React from "react";
 import './ContactUs.scss';
 import IconForContactUs from '../../assets/icons/2022-06-17 12.54 1.png';
-
+ 
 export default function ContactUs(){
     return( 
             <div className="ContactUs ">

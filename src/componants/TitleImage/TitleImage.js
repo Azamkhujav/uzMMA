@@ -10,9 +10,7 @@ export default function TitleImage(){
     return(
         <div className="container">
             <div className="blockTitleImage">
-
                  <h1 className="textTitleImage">Кто такой журналист, блогер? Нас интересовало мнение блогеров, у которых тысячи подписчиков.</h1>
- 
                  <div className="blockForTitleImage">
                     <p className="textTitleImage2">17 июня, 15:39</p>
                     <img className="imgTitleImage" src={eye} />
